@@ -24,7 +24,6 @@ import Color from "../components/color.js"
 import Download from "../components/download"
 import Partial from "../components/partial"
 import Image from "../layout/image"
-import Example from "../components/styleExample"
 import DrushChangelog from "../components/drushChangelog"
 import ReviewDate from "../components/reviewDate"
 import Youtube from "../components/youtube"
@@ -48,7 +47,6 @@ const shortcodes = {
   Download,
   Partial,
   Image,
-  Example,
   DrushChangelog,
   ReviewDate,
   Youtube,

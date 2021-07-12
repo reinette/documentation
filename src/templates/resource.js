@@ -24,7 +24,6 @@ import Color from "../components/color.js"
 import Download from "../components/download"
 import Partial from "../components/partial"
 import Image from "../layout/image"
-import Example from "../components/styleExample"
 import LocaldevChangelog from "../components/localdevChangelog"
 import DrushChangelog from "../components/drushChangelog"
 import ReviewDate from "../components/reviewDate"
@@ -46,7 +45,6 @@ const shortcodes = {
   Download,
   Partial,
   Image,
-  Example,
   LocaldevChangelog,
   DrushChangelog,
   ReviewDate,

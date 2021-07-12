@@ -24,7 +24,6 @@ import Color from "../components/color.js"
 import Download from "../components/download"
 import Partial from "../components/partial"
 import Image from "../layout/image"
-import Example from "../components/styleExample"
 import Youtube from "../components/youtube"
 
 const shortcodes = {
@@ -43,7 +42,6 @@ const shortcodes = {
   Download,
   Partial,
   Image,
-  Example,
   Youtube,
 }
 
