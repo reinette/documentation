@@ -44,7 +44,7 @@ If you are a plugin author, you will need to update your plugin for Terminus 2. 
 
 Terminus is open source! View the project on [GitHub](https://github.com/pantheon-systems/terminus) to contribute, file issues, and submit feature requests.
 
-## Support
+## Supportt
 
 Terminus is open source. Community submitted bugs and feature requests can be found [in the Terminus GitHub issues queue](https://github.com/pantheon-systems/terminus/issues). Don't see your bug or feedback listed? Create an issue on [Terminus' GitHub page](https://github.com/pantheon-systems/terminus/issues/new).
 
