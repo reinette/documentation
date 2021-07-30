@@ -1,7 +1,7 @@
 ---
 title: Contribute to Documentation
 subtitle: Spin up Local Environment
-description: In part two of our Contribute guide, learn how to spin up you local environment.
+description: In part two of our Contribute guide, learn how to spin up your local environment.
 anchorid: local-environment
 generator: pagination
 layout: guide
