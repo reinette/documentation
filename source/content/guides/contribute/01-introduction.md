@@ -1,44 +1,45 @@
 ---
-title: Get Started Writing Documentation
+title: Contribute to Documentation
 subtitle: Introduction
-description: The Quick Start guide is designed to get you started on Pantheon.
+description: The Contribute guide is designed to get you started writing and contributing documentation for Pantheon.
 layout: guide
 categories: [get-started]
-tags: [launch, sandbox, site, webops, workflow]
+tags: [workflow]
 type: guide
-anchorid: quickstart
+anchorid: contribute
 generator: pagination
-permalink: docs/guides/quickstart/
-nexturl: guides/quickstart/user-dashboard/
-nextpage: User Dashboard
-editpath: quickstart/01-introduction.md
+permalink: docs/guides/contribute/
+nexturl: guides/contribute/create-new-doc/
+nextpage: Create a New Doc
+editpath: contribute/01-introduction.md
 completiontime: 1 hour
 image: launchGuide-twitterLarge
 ---
 
-Welcome! This guide is designed to get you started on Pantheon.
+Welcome! This guide is designed to get you started writing and contributing documentation for Pantheon.
 
-<Callout
-  title="Getting Started Training"
-  link="https://pantheon.io/getting-started-pantheon?docs"
->
-  Ramp up faster with an on-demand, recorded version of this material, delivered by
-  Pantheon's Developer Advocacy team.
-</Callout>
+Welcome! Thanks for your interest in helping make Pantheon's documentation great.
+
+Pantheon's documentation covers more subjects than any one person can be fluent in. The Docs team depends on the expertise present throughout every department of Pantheon, and **external contributors,** to help us solve issues for our customers.
+
+The process outlined here covers the ways you can help contribute to docs, from quickly reporting issues with existing docs to **authoring a detailed guide as a Subject Matter Expert (SME),** including the typical contribution process for reporting an issue with existing documentation and for making simple edits to the docs.
+
 
 In this guide, you'll learn how to:
 
-- Create a Sandbox site on Pantheon
-- Deploy Drupal or WordPress to the site
-- Use separate Dev, Test, and Live environments in a best-practice development workflow
-- Perform on-server development via our SFTP Connection Mode
+- Create (Write? Author?) a new documentation page
+- Spin up your local environment using Gatsby
+- Report issues with existing docs
+- Make edits to documentation
+- Something about troubleshooting
 
-All you need before you begin is a Pantheon account. If you don't have one, <a href="https://pantheon.io/register" target="_blank">sign up now for free <span class="glyphicons glyphicons-new-window-alt"></span></a>.
+## Before You Begin
 
-<Alert title="Note" type="info">
+Please consider our recommendations for Tone, Style, and Voice when writing documentation.
 
-Are you an agency? Do you build sites for others? If so, check **Are you an agency?** on the [signup form](https://pantheon.io/register) to get more free features and really make the most of this guide. Size doesn't matter; you can sign up if you're an agency of one or one-thousand.
+Here are some resources to help guide you writing documentation that aligns with Pantheon’s voice and style.
 
-</Alert>
-
-You should now have a Pantheon User Account. When you're ready, you may continue to the next lesson.
+* [Style Guide](/style-guide)
+* [Inclusive Language](/inclusive-language)
+* [Glossary Terms](/glossary)
+* [Chicago Manual of Style](https://www.chicagomanualofstyle.org/book/ed17/frontmatter/toc.html)

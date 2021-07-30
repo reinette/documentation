@@ -1,60 +1,61 @@
 ---
-title: Quick Start
-subtitle: Create New Site
-description: In part three of our Quick Start guide, learn how to create your new Pantheon site.
-anchorid: create-new-site
-generator: pagination
+title: Contribute to Documentation
+subtitle: Create a New Doc
+description: In part three of our Contribute guide, learn how to create a new doc.
+anchorid: create-new-doc
 layout: guide
 categories: [get-started]
-tags: [dashboard, users, workflow]
+tags: [workflow]
 type: guide
-permalink: docs/guides/quickstart/create-new-site/
-editpath: quickstart/03-create-new-site.md
+quickstart: true
+generator: pagination
+permalink: docs/guides/contribute/create-new-doc/
+nexturl: guides/quickstart/local-environment/
+nextpage: Create Your Local Environment
+previousurl: guides/contribute/
+previouspage: Introduction
+editpath: quickstart/03-create-new-doc.md
 image: launchGuide-twitterLarge
 ---
 
-In this lesson, we’re going to create and configure a new WordPress or Drupal site.
+In this lesson, we’re going to explore the User Dashboard.
 
 **Watch the video:**
 
-<Youtube src="NBL2Ejh8TI4" title="Create New Site" />
+<Youtube src="U7iaX-vwPrc" title="User Dashboard Overview" />
 
-**Create your site:**
+<Accordion title="User Dashboard Glossary (Optional)" id="user-dashboard-tour" icon="lightbulb">
 
-1. Log in to your Pantheon account. By default you land on the **Sites** tab of your User Dashboard. Here you’ll see the sites you’ve created or the sites you’ve been added to. If you just created your account you may not see any sites.
+- <Icon icon={"more-windows"} text={"Sites:"}/> Add a new site, view sites you're a team member of, and check how many free sites you have remaining. Return to this page by clicking the Pantheon logo.
 
-   <Alert title="Note" type="info">
+  - <Icon icon={"plus"} text={"Create New Site:"}/> Start the process of creating a new site on Pantheon. Once created, it will appear under the Sites tab.
 
-   If you registered as an agency, and this is your first time logging in, you’ll land on your Organization Dashboard. Navigate to your User Dashboard by selecting your name in the menu bar, then **My Dashboard**.
+  - **Migrate Existing Site:** Start a guided migration to add a site. If you’re importing a site from your local environment, follow our [manual migration process](/migrate-manual).
 
-   </Alert>
+- <Icon icon={"group"} text={"Organizations:"}/> If you belong to an organization, you’ll see it listed here. Click it to link to the organization's dashboard.
 
-2. Select <Icon icon="plus" text="Create New Site"/>. You’ll be asked to name this site and, if you’re part of an agency, associate this site with your organization.
+- <Icon icon={"flag"} text={"Support:"}/> View details of an open support request or create a new support request. Our chat-based support is available 24-hours a day.
 
-3. Select **Continue** to choose from the available site frameworks.
+- <Icon icon={"cogwheel"} text={"Account:"}/> Update and manage your personal account information. Use the options in the left-hand navigation menu:
 
-   <Alert title="Note" type="info">
+  - **Profile:** Update your user profile information, or connect your Google account to Pantheon.
 
-   Eligible Organizations can add their own sites to this list! We call these [Custom Upstreams](/custom-upstream), and they function as common start states. Organizations use them to spin up multiple sites with the same codebase, modules, plugins, themes, etc., and to make quick updates to these sites en masse.
+  - **Change Password:** Change your account password.
 
-   </Alert>
+  - **Login Destination:** Change your Login Destination.
 
-4. For the purpose of this guide, deploy WordPress or Drupal 8 by clicking the appropriate button. This takes a few moments. So while you wait, learn what’s happening behind the scenes:
+  - **SSH Keys:** Add and manage your SSH keys.
 
-   <Accordion title="Deploy a Site on Pantheon (optional)" icon="lightbulb" id="understand-deploy" >
+  - **Machine Tokens:** Use machine tokens to uniquely identify your machine and securely authenticate with apps such as [Terminus](/terminus) or the [Pantheon Migration plugin](/migrate).
 
-   It can take 2 or more minutes to create a new site on Pantheon. This is because of all the processes running behind the scenes. Our platform first creates fresh containers, just for your site. We then install PHP, NginX, and MariaDB. Finally we pull the latest version of your content management system (CMS) from either our upstream repository or your Private Upstream.
+  - **Billing:** View and update your billing information for sites you own.
 
-   </Accordion>
+  - **Delete Account:** Delete your Pantheon account. This is useful for consolidating multiple accounts under a single user account.
 
-5. Complete? Click **Visit your Pantheon Site Dashboard**.
+</Accordion>
 
-6. We’ll explore the Site Dashboard in the next lesson. For now, access your new site by clicking <Icon icon="new-window-alt" text="Visit Development Site"/> and follow the prompts to complete the installation of your site.
+Note:
 
-   <Alert title="Note" type="info">
+- <Partial file="dashboard-login-session-length.md" />
 
-   Record your new username and password. You’ll need this information again soon.
-
-   </Alert>
-
-Congratulations! You just installed a new site on Pantheon. When you're ready, you may continue to the next lesson.
+You should now be familiar with the Pantheon User Dashboard. When you’re ready, you may continue to the next lesson.
